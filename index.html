@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title>シングルページレイアウト</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <p class="site-title-sub">Murasame_usa's portfolio</p>
+        <h1 class="site-title">HI, Welcome!</h1>
+        <p class="site-description">Check out some of my works.</p>
+        <div class="buttons">
+            <a class="button" href="#about">LEARN MORE</a>
+            <a class="button button-showy" href="#contact">SEND MESSAGE</a>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <h2 class="heading">ABOUT ME</h2>
+        <p class="about-text">初めまして。<a href="https://twitter.com/murasame_usa">@murasame_usa</a>です。<br>法学部を卒業し、独学でマークアップ、プログラミング、デザインを学んでいる者です。</p>
+        <p class="about-text">このサイトは「HTML/CSS モダンコーディング」という書籍を参考に作られたポートフォリオサイトです。<br>書籍を通してHTMLとCSSの実践的なコーディングノウハウを学んでいます。</p>
+    </section>
+    <section class="works">
+        <h2 class="heading">WORKS</h2>
+        <div class="works-wrapper">
+            <div class="work-box tree">
+                <img class="work-image" src="images/jishin.png" alt="制作事例1">
+                <div class="work-description">
+                    <div class="work-description-inner">
+                        <p class="work-text">
+                        地震案内所<br>
+                        地震災害に特化したSNSです。<br>
+                        使用ツール：Rails,Heroku,AWS,PostgreSQL<br>
+                        <a href="https://hidden-bastion-96471.herokuapp.com/" target="_blank" class="button button-ghost">サイトはこちら</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-box building">
+                <img class="work-image" src="images/kirara.png" alt="制作事例2">
+                <div class="work-description">
+                    <div class="work-description-inner">
+                        <p class="work-text">
+                        Kirara House<br>
+                        私の好きな漫画の紹介サイトです。<br>
+                        使用ツール：HTML, CSS, bxslider,GitHub Pages<br>
+                        <a href="https://soundring.github.io/kirara_website/" target="_blank" class="button button-ghost">サイトはこちら</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-box lake">
+                <img class="work-image" src="images/standard.png" alt="制作事例3">
+                <div class="work-description">
+                    <div class="work-description-inner">
+                        <p class="work-text">
+                        スタンダードレイアウトのサイト<br>
+                        テキストを参考に制作しました。<br>
+                        使用ツール：HTML, CSS, GitHub Pages<br>
+                        <a href="https://soundring.github.io/standard_sample_site/" target="_blank" class="button button-ghost">サイトはこちら</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-box sky">
+                <img class="work-image" src="images/glid.png" alt="制作事例4">
+                <div class="work-description">
+                    <div class="work-description-inner">
+                        <p class="work-text">
+                        グリッドレイアウトのサイト<br>
+                        テキストを参考に制作しました。<br>
+                        使用ツール：HTML, CSS, Masonry,GitHub Pages<br>
+                        <a href="https://soundring.github.io/glid_site/" target="_blank" class="button button-ghost">READ MORE</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+          </section>
+    <section class="skills">
+        <h2 class="heading">MY SKILLS</h2>
+        <div class="skills-wrapper">
+            <div class="skill-box">
+                <i class="skill-icon fa fa-lightbulb-o"></i>
+                <div class="skill-title">IDEA</div>
+                <p class="skill-text">
+                    アイデアを考えることが好きです。<br>
+                    知的好奇心に溢れています。
+                </p>
+            </div>
+            <div class="skill-box">
+                <i class="skill-icon fa fa-paint-brush"></i>
+                <div class="skill-title">DESIGN</div>
+                <p class="skill-text">
+                    Sketchを使ってのUIデザイン経験<br>
+                    CLIP STUDIO PAINTを使ってのイラスト制作経験<br>
+                    Illustratorを使ってのロゴ制作経験（ベジェ曲線）
+                </p>
+            </div>
+            <div class="skill-box">
+                <i class="skill-icon fa fa-code"></i>
+                <div class="skill-title">CODING</div>
+                <p class="skill-text">
+                    HTML/CSSコーディングの経験<br>
+                    JavaScript経験<br>
+                    Ruby経験（Rails）
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">CONTACT(現在使用不可)</h2>
+        <form class="contact-form">
+            <input type="text" name="name">
+            <textarea name="message"></textarea>
+            <input type="submit" value="SEND">
+        </form>
+    </section>
+    <section class="footer">
+
+    </section>
+    
+</body>
+</html>
